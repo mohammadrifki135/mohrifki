@@ -1,0 +1,42 @@
+div.sidebar {
+	background-image: url(kopi.jpg);
+	position: fixed;
+	left: 0px;
+	width: 220px;
+	height: 100%;
+	transition: all 0.5s ease;
+}
+h2 {
+    text-align: center;
+    display: block;
+    margin: 25px;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    float: left;
+    padding: 20px;
+}
+li a{
+    display:block;
+    color:blue;
+    text-align:left;
+    padding:14px;
+    text-decoration: none;
+}
+h1{
+    text-align: center;
+    color:red;
+    font-family: sans-serif;
+}
+body{
+    height: 100vh;
+    background-image: url(H.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
